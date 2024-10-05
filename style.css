@@ -1,0 +1,64 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background: linear-gradient(45deg, rgb(255, 0, 0), rgb(0, 255, 0)); /* Red to Green gradient */
+    color: #fff; /* White text for readability */
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    margin-top: 50px;
+}
+
+h1, h2, .timer, .period, .result, .history ul li {
+    font-weight: bold; /* Bold text */
+}
+
+h1 {
+    font-size: 24px;
+    color: #fff; /* White text */
+}
+
+.timer {
+    font-size: 48px;
+    margin: 20px;
+}
+
+.period {
+    font-size: 24px;
+    margin: 20px;
+}
+
+.result {
+    font-size: 36px;
+    margin: 30px;
+    font-weight: bold;
+}
+
+.history {
+    margin-top: 40px;
+}
+
+.history h2 {
+    font-size: 24px;
+    color: #fff; /* White text */
+}
+
+.history ul {
+    list-style-type: none;
+    padding: 0;
+    font-size: 18px;
+}
+
+.history ul li {
+    background-color: rgba(255, 255, 255, 0.2); /* Transparent white for the list items */
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    color: #fff; /* White text */
+}
